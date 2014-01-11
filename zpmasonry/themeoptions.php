@@ -1,5 +1,5 @@
 <?php
-// force UTF-8 Ø
+// force UTF-8 ï¿½
 
 /* Plug-in for theme option handling
  * The Admin Options page tests for the presence of this file in a theme folder
@@ -109,7 +109,7 @@ class ThemeOptions {
 			gettext('Colorbox Transition Type') => array('key' => 'zpmas_cbtransition', 'type' => OPTION_TYPE_CUSTOM, 
 				'order' => 13,
 				'desc' => gettext('The colorbox transition type. Can be set to elastic, fade, or none.')),
-			gettext('Colorbox Slideshow Speed') => array('key' => 'zpmas_cbssspeed', 'type' => OPTION_TYPE_TEXTBOX, 'multilingual' => 1, 
+			gettext('Colorbox Slideshow Speed') => array('key' => 'zpmas_cbssspeed', 'type' => OPTION_TYPE_TEXTBOX, 
 				'order' => 14,
 				'desc' => gettext('Enter a number here in milliseconds that determines the colorbox slideshow speed. Default is \'2500\'.')),
 			gettext('Colorbox Target Sized Image in Galleriffic') => array('key' => 'zpmas_cbtarget', 'type' => OPTION_TYPE_CHECKBOX, 
